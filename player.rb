@@ -1,10 +1,11 @@
 class Player
 
-  attr_accessor :lives, :score
+  attr_accessor :lives, :score, :name
 
-  def initialize
+  def initialize(name)
     @lives = 3
     @score = 0
+    @name = name
   end
 
 end

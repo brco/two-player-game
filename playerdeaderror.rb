@@ -1,0 +1,2 @@
+class PlayerDeadError < StandardError
+end
